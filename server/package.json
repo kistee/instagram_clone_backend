@@ -1,23 +1,26 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "connect-multiparty": "^2.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-graphql": "^0.9.0",
-    "graphql": "^15.0.0",
-    "pusher": "^3.0.1"
-  },
-  "devDependencies": {},
-  "description": ""
+	"name": "server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"lambda-serve": "netlify-lambda serve functions",
+		"lambda-build": "netlify-lambda build functions"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"connect-multiparty": "^2.2.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-graphql": "^0.9.0",
+		"graphql": "^15.0.0",
+		"netlify-lambda": "^1.6.3",
+		"pusher": "^3.0.1"
+	},
+	"devDependencies": {},
+	"description": ""
 }
